@@ -16,3 +16,6 @@ Make sure the following tools are installed on your system:
 - Java JDK 8 or higher
 - Apache Maven
 - Git
+
+  ## Scenario path
+  selenium-parallel/src/test/java/test
