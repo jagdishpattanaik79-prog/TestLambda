@@ -1,0 +1,20 @@
+
+<suite name="LambdaTest Cross Browser Suite" parallel="tests" thread-count="2">
+    <test name="Chrome on Windows 10">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="platform" value="Windows 10"/>
+        <classes>
+            <class name="test.LambdaTestChromeWin10"/>
+        </classes>
+    </test>
+    <test name="Edge on macOS Ventura">
+        <parameter name="browser" value="Edge"/>
+        <parameter name="platform" value="macOS Ventura"/>
+        <classes>
+            <class name="test.LambdaTestEdgeMac"/>
+        </classes>
+    </test>
+</suite>
+
+
+	
